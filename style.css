@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  background-color: black;
+}
+.line {
+  border: 1px solid blue;
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+.img-size {
+  width: 132px;
+}
+.nav-item {
+  padding: 28px 17px;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #1ed760;
+}
