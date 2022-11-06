@@ -19,6 +19,10 @@ body {
   text-decoration: none;
   color: white;
 }
+a {
+  text-decoration: none;
+  color: white;
+}
 a:hover {
   color: #1ed760;
 }
@@ -70,4 +74,70 @@ main {
 
 footer {
   height: 530px;
+  display: flex;
+  justify-content: center;
+}
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  height: 346px;
+}
+.footer-wrapper {
+  width: 1170px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.footer-icon {
+  padding-bottom: 15px;
+  padding-top: 3px;
+  font-size: 16px;
+}
+.first-box {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+.sub-title {
+  color: #919496;
+  font-weight: 900;
+  margin: 20px 0px;
+}
+.second-box {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+.box-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 54px;
+  height: 54px;
+  background-color: #222322;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 24px;
+}
+.first-footer-wrapper {
+  display: flex;
+  margin-right: 25px;
+  justify-content: flex-end;
+}
+.first-line {
+  font-size: 12px;
+  color: #919496;
+}
+.second-footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.second-line {
+  margin-right: 24px;
+  color: #919496;
 }
