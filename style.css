@@ -1,0 +1,143 @@
+body {
+  margin: 0;
+  background-color: black;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+  color: white;
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+.img-size {
+  width: 132px;
+}
+.nav-item {
+  padding: 28px 17px;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: #1ed760;
+}
+main {
+  height: 968px;
+  background-color: rgb(41, 65, 171);
+  background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+  background-size: 175%;
+  background-position: 46% 4%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headline {
+  position: relative;
+  left: 0.9em;
+  padding-bottom: 40px;
+  font-size: 156px;
+  font-weight: 900;
+  color: #1ed760;
+}
+.headline-frist {
+  position: relative;
+  left: -1.5em;
+}
+.sub-headline {
+  padding-bottom: 40px;
+  color: #1ed760;
+  font-size: 18px;
+  text-align: center;
+}
+.button-wrapper {
+  text-align: center;
+}
+.button-style {
+  padding: 14px 32px;
+  background-color: #1ed760;
+  border-radius: 500px;
+  font-size: inherit;
+  color: #2941ab;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+.button-style:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  height: 530px;
+  display: flex;
+  justify-content: center;
+}
+.footer-menu {
+  display: flex;
+  justify-content: space-between;
+  height: 346px;
+}
+.footer-wrapper {
+  width: 1170px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+.footer-icon {
+  padding-bottom: 15px;
+  padding-top: 3px;
+  font-size: 16px;
+}
+.first-box {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+}
+.title-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+.sub-title {
+  color: #919496;
+  font-weight: 900;
+  margin: 20px 0px;
+}
+.second-box {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+.box-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 54px;
+  height: 54px;
+  background-color: #222322;
+  border-radius: 50%;
+  margin-right: 15px;
+  font-size: 24px;
+}
+.first-footer-wrapper {
+  display: flex;
+  margin-right: 25px;
+  justify-content: flex-end;
+}
+.first-line {
+  font-size: 12px;
+  color: #919496;
+}
+.second-footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.second-line {
+  margin-right: 24px;
+  color: #919496;
+}
